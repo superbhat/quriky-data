@@ -40,7 +40,7 @@ See `is_valid_gender` function for furthers details.
 - Install the project - `pip install -e .`
 - Run CLI command `transform -h` to get information. 
 - CLI command to execute the process `transform -s data/donors.csv`
-- Target data will be written into `data/output/donors.gzip`
+- Target data will be written into `Output/donors.gzip`
 
 ## Test
 - Run CLI command `pytest test/` to perform unit test.
