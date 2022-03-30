@@ -33,7 +33,7 @@ See `is_valid_gender` function for furthers details.
 
 ## Build and Run.
 ### Steps
-- `git clone git@github.com:superbhat/quriky-data.git` - Clone the project into a local drive.
+- `git clone https://github.com/superbhat/quriky-data.git` - Clone the project into a local drive.
 - Create virtual env using CLI on terminal- `python3 -m venv ./venv`
 - Activate the virtual env - `source venv/bin/activate`
 - Install the project - `pip install -e .`
