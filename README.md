@@ -33,13 +33,14 @@ See `is_valid_gender` function for furthers details.
 
 ## Build and Run.
 ### Steps
-- `git clone git@github.com:superbhat/quriky-data.git` - Clone the project into a local drive.
+- `git clone https://github.com/superbhat/quriky-data.git` - Clone the project into a local drive.
+- `cd quriky-data`
 - Create virtual env using CLI on terminal- `python3 -m venv ./venv`
 - Activate the virtual env - `source venv/bin/activate`
 - Install the project - `pip install -e .`
 - Run CLI command `transform -h` to get information. 
-- CLI command to execute the process `transform -s src/data/donors.csv`
-- Target data will be written into data/output/donors.gzip
+- CLI command to execute the process `transform -s data/donors.csv`
+- Target data will be written into `Output/donors.gzip`
 
 ## Test
 - Run CLI command `pytest test/` to perform unit test.

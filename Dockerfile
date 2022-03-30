@@ -7,4 +7,4 @@ WORKDIR /app
 RUN pip install --upgrade pip setuptools \
 && pip install -e .
 
-CMD [ "transform", "-s", "/app/data/donors.csv" ]
+ENTRYPOINT [ "python", "/app/src/main.py" ]
