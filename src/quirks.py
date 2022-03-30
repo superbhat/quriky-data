@@ -193,4 +193,4 @@ class RemoveQuirks:
 
         # Write to Parquet File.
         final_df.to_parquet('Output/donors.gzip', compression='gzip')
-        logger.info('Data Cleansing Activity Done, File Generated Path data/output/donors.gzip', )
+        logger.info('Data Cleansing Activity Done, File Generated Path Output/donors.gzip', )

@@ -41,6 +41,7 @@ See `is_valid_gender` function for furthers details.
 - Run CLI command `transform -h` to get information. 
 - CLI command to execute the process `transform -s data/donors.csv`
 - Target data will be written into `Output/donors.gzip`
+- Run `deactivate` to come out of venv.
 
 ## Test
 - Run CLI command `pytest test/` to perform unit test.
