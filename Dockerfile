@@ -5,6 +5,6 @@ COPY . /app
 WORKDIR /app
 
 RUN pip install --upgrade pip setuptools \
-&& pip install --no-cache-dir -r /app/requirements.txt
+&& pip install -e .
 
-ENTRYPOINT [ "python", "/app/src/main.py" ]
+CMD [ "transform", "-s", "/app/data/donors.csv" ]
