@@ -45,3 +45,8 @@ See `is_valid_gender` function for furthers details.
 
 ## Test
 - Run CLI command `pytest test/` to perform unit test.
+
+## Docker
+If following project need to be run from inside container run below commands in sequence. Assuming docker is preinstalled.
+- docker build --tag quriky-data-python .
+- docker run -it --rm -w /app/src/ quriky-data-python
